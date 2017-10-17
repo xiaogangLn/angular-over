@@ -1,0 +1,66 @@
+/*登录页面*/
+#login div.form-group h1{
+	color: #00a080;
+	font-weight: bold;
+}
+
+#login form span{
+	color: dimgray;
+}
+
+.btn-green{
+	background-color: #00a080;
+	color: white;
+}
+
+.btn-green:hover{
+	color: white;
+}
+
+/*菜单页面*/
+header#menu{
+	border-radius: 0;
+	color: white;
+	background-color: #00a080;
+	box-shadow: 0 2px 5px darkslategray;
+	height: 50px;
+	line-height: 50px;
+}
+
+header#menu div.navbar-left p{
+	margin-top: 2px;
+	text-decoration: underline;
+}
+
+header#menu div.navbar-right{
+	margin-right: 20px;
+}
+
+header#menu div.navbar-right a span{
+	margin: 0 5px 0 0;
+	position: relative;
+	top: 3px;
+}
+
+section#menu a{
+	color: #00a080;
+}
+
+/*内页*/
+div#insert div.input-group{
+	padding: 20px;
+}
+
+div#insert div.input-group label{
+	margin-left: 20px;
+}
+
+div#insert div.odd{
+	background-color: #00a080;
+	color: white;
+}
+
+div#insert div.even{
+	background-color: white;
+	color: #00a080;
+}

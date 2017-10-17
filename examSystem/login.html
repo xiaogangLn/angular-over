@@ -1,0 +1,23 @@
+<section class="container" id="login">
+	<div class="form-group">
+		<br />
+		<h1>欢迎来到EXAM成绩测试管理系统</h1>
+		<br />
+		<form action="" name="loginForm">
+			<input type="text" name="user" placeholder="登录帐号：" class="form-control" ng-model="userLogin.user" required pattern="[a-zA-Z0-9]{6,10}"/>
+			<span class="small" ng-show="loginForm.user.$error.required">账号不能为空！</span>
+			<span class="small" ng-show="loginForm.user.$error.pattern">账号为6-16位字符！</span>
+			<br />
+			<input type="password" name="psw" placeholder="登录密码：" class="form-control" ng-model="userLogin.psw" required pattern="[a-zA-Z0-9]{6,10}"/>
+			<span class="small" ng-show="loginForm.psw.$error.required">密码不能为空！</span>
+			<span class="small" ng-show="loginForm.psw.$error.pattern">密码为6-16位字符！</span>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" />记住密码
+				</label>
+			</div>
+			<br />
+			<input type="button" class="btn btn-green btn-block" ng-click="login()" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" />
+		</form>
+	</div>
+</section>

@@ -1,0 +1,75 @@
+[
+	{
+		"id": "1",
+		"question": "下列哪个属性用来设置元素的宽度？",
+		"answer": [
+			{
+				"text": "A. width",
+				"value": "a"
+			}, {
+				"text": "B. height",
+				"value": "b"
+			}, {
+				"text": "C. font-weight",
+				"value": "c"
+			}, {
+				"text": "D. border",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "2",
+		"question": "下列哪个属性用来设置元素的高度？",
+		"answer": [
+			{
+				"text": "A. width",
+				"value": "a"
+			}, {
+				"text": "B. height",
+				"value": "b"
+			}, {
+				"text": "C. font-weight",
+				"value": "c"
+			}, {
+				"text": "D. border",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "3",
+		"question": "下列哪个属性用来设置元素的边框？",
+		"answer": [
+			{
+				"text": "A. width",
+				"value": "a"
+			}, {
+				"text": "B. height",
+				"value": "b"
+			}, {
+				"text": "C. font-weight",
+				"value": "c"
+			}, {
+				"text": "D. border",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "4",
+		"question": "下列哪个属性用来设置元素的阴影？",
+		"answer": [
+			{
+				"text": "A. text-shadow",
+				"value": "a"
+			}, {
+				"text": "B. box-shadow",
+				"value": "b"
+			}, {
+				"text": "C. font-weight",
+				"value": "c"
+			}, {
+				"text": "D. border",
+				"value": "d"
+			}
+		]
+	}
+]

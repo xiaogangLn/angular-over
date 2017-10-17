@@ -1,0 +1,75 @@
+[
+	{
+		"id": "1",
+		"question": "下列哪个属性用来实现网页的响应式布局？",
+		"answer": [
+			{
+				"text": "A. @media",
+				"value": "a"
+			}, {
+				"text": "B. height",
+				"value": "b"
+			}, {
+				"text": "C. font-weight",
+				"value": "c"
+			}, {
+				"text": "D. border",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "2",
+		"question": "下列哪个类名是导航栏的class？",
+		"answer": [
+			{
+				"text": "A. navbar",
+				"value": "a"
+			}, {
+				"text": "B. nav",
+				"value": "b"
+			}, {
+				"text": "C. navbar-collapse",
+				"value": "c"
+			}, {
+				"text": "D. collapse",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "3",
+		"question": "bootstrap的突出特点是什么？",
+		"answer": [
+			{
+				"text": "A. 优雅的样式",
+				"value": "a"
+			}, {
+				"text": "B. 响应式布局",
+				"value": "b"
+			}, {
+				"text": "C. 图片轮播",
+				"value": "c"
+			}, {
+				"text": "D. 快速开发",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "4",
+		"question": "bootstrap是基于什么语言开发的？",
+		"answer": [
+			{
+				"text": "A. HTML/CSS/PHP",
+				"value": "a"
+			}, {
+				"text": "B. HTML/CSS",
+				"value": "b"
+			}, {
+				"text": "C. HTML/CSS/jQuery",
+				"value": "c"
+			}, {
+				"text": "D. HTML/CSS/JavaScript",
+				"value": "d"
+			}
+		]
+	}
+]

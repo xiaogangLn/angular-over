@@ -1,0 +1,75 @@
+[
+	{
+		"id": "1",
+		"question": "下列元素中那一个是块级元素？",
+		"answer": [
+			{
+				"text": "A. <span></span>",
+				"value": "a"
+			}, {
+				"text": "B. <a></a>",
+				"value": "b"
+			}, {
+				"text": "C. <div></div>",
+				"value": "c"
+			}, {
+				"text": "D. <em></em>",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "2",
+		"question": "下列元素中那一个是行内元素？",
+		"answer": [
+			{
+				"text": "A. <div></div>",
+				"value": "a"
+			}, {
+				"text": "B. <p></p>",
+				"value": "b"
+			}, {
+				"text": "C. <strong></strong>",
+				"value": "c"
+			}, {
+				"text": "D. <h3></h3>",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "3",
+		"question": "下列元素中那一个不是表单元素？",
+		"answer": [
+			{
+				"text": "A. <form></form>",
+				"value": "a"
+			}, {
+				"text": "B. <option></option>",
+				"value": "b"
+			}, {
+				"text": "C. <style></style>",
+				"value": "c"
+			}, {
+				"text": "D. <input type=\"\" />",
+				"value": "d"
+			}
+		]
+	}, {
+		"id": "4",
+		"question": "下列元素中那一个不是表格元素？",
+		"answer": [
+			{
+				"text": "A. <table></table>",
+				"value": "a"
+			}, {
+				"text": "B. <td></td>",
+				"value": "b"
+			}, {
+				"text": "C. <tr></tr>",
+				"value": "c"
+			}, {
+				"text": "D. <a></a>",
+				"value": "d"
+			}
+		]
+	}
+]

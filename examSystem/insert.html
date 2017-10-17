@@ -1,0 +1,26 @@
+<div id="insert">
+	<div class="col-md-9">
+		<h3>{{title}}</h3>
+		<div ng-repeat="obj in questions">
+			<div ng-show="{{obj.id%2==1}}" class="form-group odd">
+				<div class="input-group">
+					<p>{{obj.id+".&nbsp;"+obj.question}}</p>
+					<div ng-repeat="x in obj.answer">
+						<label class="radio"><input type="radio" name="{{obj.id}}" value="{{x.value}}"/>{{x.text}}</label>
+					</div>
+				</div>
+			</div>
+			<div ng-hide="{{obj.id%2==1}}" class="form-group even">
+				<div class="input-group">
+					<p>{{obj.id+".&nbsp;"+obj.question}}</p>
+					<div ng-repeat="x in obj.answer">
+						<label class="radio"><input type="radio" name="{{obj.id}}" value="{{x.value}}"/>{{x.text}}</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		{{questions}}
+	</div>
+</div>
